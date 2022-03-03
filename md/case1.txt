@@ -1,0 +1,11 @@
+initial_state_file testdata/test.txt
+restart_file restart.xyz
+trajectory_file trajectory1.xyz
+energy_file energy1.txt
+box_size 40 40 40
+process_division 4 4 4
+cell_division 2 2 2
+delta_t 1
+duration 30000
+output_interval 10
+cutoff_radius 10

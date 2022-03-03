@@ -1,0 +1,11 @@
+initial_state_file atom1.xyz
+restart_file restart.xyz
+trajectory_file trajectory.xyz
+energy_file energy.xyz
+box_size 300 600 900
+process_division 3 3 3
+cell_division 2 2 2
+delta_t 2
+duration 1000
+output_interval 5
+cutoff_radius 3
